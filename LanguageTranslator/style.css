@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#efdce4;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    background-color: pink;
+    width: 860px;
+    padding: 30px;
+}
+.language-op{
+    padding-bottom: 10px;
+    border-bottom: 2px solid blue;
+    /* text-decoration: none; */
+}
+.language-op li{
+    list-style:none;
+}
+.selectEl{
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: pink;
+    font-family: cursive;
+    font-weight: bold;
+}
+.writting-box {
+    margin-top: 10px;
+}
+
+.input-form{
+    flex-direction: column;
+}
+.input-form textarea {
+    width: 400px;
+    resize: none;
+    height: 500px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    font-family: cursive;
+
+}
+.output-form{
+    flex-direction: column;
+}
+.output-form textarea{
+     width: 400px;
+    resize: none;
+    height: 500px;
+    padding: 15px;
+    outline: none;
+    border: none;
+
+    background-color: rgb(245, 239, 239);
+}
+
+.volume-icon{
+    margin-top: 10px;
+    /* padding-inline: 10px; */
+    color: white;
+    
+    
+    
+}
+.volume-icon:hover{
+    cursor: pointer;
+    color: green;
+    
+}
+#fromVol:hover{
+
+}
+#copyIcon{
+    
+    margin-left: 330px;
+    color: white;
+
+
+}
+#copyIcon:hover{
+    cursor: pointer;
+    color: green;
+}
